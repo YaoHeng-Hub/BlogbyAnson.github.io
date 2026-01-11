@@ -2,7 +2,7 @@
 baseURL = 'https://yaoheng-hub.github.io/BlogbyAnson.github.io/'
 title = 'Anson的个人博客'
 languageCode = 'zh-cn'
-theme = 'ananke'
+theme = 'hugo-coder'
 disableAliases = true
 disableHugoGeneratorInject = true
 
@@ -28,46 +28,29 @@ disableHugoGeneratorInject = true
   author_bio = '热爱技术的开发者，专注于Web开发和系统架构'
   
   # 社交链接
-  [[params.ananke_socials]]
-    name = 'github'
-    url = 'https://github.com/YaoHeng-Hub'
-    label = 'GitHub'
-  [[params.ananke_socials]]
-    name = 'twitter'
-    url = 'https://twitter.com/yourusername'
-    label = 'Twitter'
-  [[params.ananke_socials]]
-    name = 'linkedin'
-    url = 'https://www.linkedin.com/in/yourprofile'
-    label = 'LinkedIn'
-  [[params.ananke_socials]]
-    name = 'email'
-    url = 'mailto:your-email@example.com'
-    label = 'Email'
-  [[params.ananke_socials]]
-    name = 'rss'
-    url = '/index.xml'
-    label = 'RSS'
-    follow = false
+  [params.social]
+    github = 'YaoHeng-Hub'
+    twitter = 'yourusername'
+    linkedin = 'yourprofile'
+    email = 'yaohsir@gmail.com'
 
 # 菜单配置
-[menu]
-  [[menu.main]]
-    name = '首页'
-    url = '/'
-    weight = 1
-  [[menu.main]]
-    name = '文章'
-    url = '/posts/'
-    weight = 2
-  [[menu.main]]
-    name = '关于'
-    url = '/about/'
-    weight = 3
-  [[menu.main]]
-    name = '联系'
-    url = '/contact/'
-    weight = 4
+[[menu.main]]
+  name = '首页'
+  url = '/'
+  weight = 1
+[[menu.main]]
+  name = '文章'
+  url = '/posts/'
+  weight = 2
+[[menu.main]]
+  name = '关于'
+  url = '/about/'
+  weight = 3
+[[menu.main]]
+  name = '联系'
+  url = '/contact/'
+  weight = 4
 
 # 服务配置（用于评论等）
 [services]
@@ -87,6 +70,10 @@ disableHugoGeneratorInject = true
   inputPosition = "bottom"
   theme = "light"
   lang = "zh-CN"
+  
+  # 作者信息
+  [params]
+  # ... 已有的params配置 ...
 
 # 输出格式
 [outputs]
