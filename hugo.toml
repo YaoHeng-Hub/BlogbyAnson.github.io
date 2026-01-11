@@ -110,3 +110,16 @@ googleAnalytics = ""
   [markup.highlight]
     style = "github"
     lineNos = true
+
+[security]
+  [security.funcs]
+    [security.funcs.getenv]
+      pattern = "^(HUGO_|GITHUB_)"
+
+[mediaTypes."text/plain"]
+  suffixes = ["env"]
+
+[outputFormats.env]
+  mediaType = "text/plain"
+  isPlainText = true
+  notAlternative = true
