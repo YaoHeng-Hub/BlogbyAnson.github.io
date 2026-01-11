@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Anson的个人博客</title><link>https://yaoheng-hub.github.io/BlogbyAnson.github.io/</link><description>Recent content on Anson的个人博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 12 Jan 2026 01:09:00 +0800</lastBuildDate><atom:link href="https://yaoheng-hub.github.io/BlogbyAnson.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>我的第一篇博客文章</title><link>https://yaoheng-hub.github.io/BlogbyAnson.github.io/posts/first-post/</link><pubDate>Mon, 12 Jan 2026 01:09:00 +0800</pubDate><guid>https://yaoheng-hub.github.io/BlogbyAnson.github.io/posts/first-post/</guid><description>&lt;h1 id="欢迎来到我的博客"&gt;
+ 欢迎来到我的博客
+ &lt;a class="heading-link" href="#%e6%ac%a2%e8%bf%8e%e6%9d%a5%e5%88%b0%e6%88%91%e7%9a%84%e5%8d%9a%e5%ae%a2"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;这是我的第一篇文章，介绍如何使用Hugo搭建一个现代化的个人博客。&lt;/p&gt;
+&lt;h2 id="为什么选择hugo"&gt;
+ 为什么选择Hugo？
+ &lt;a class="heading-link" href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%80%89%e6%8b%a9hugo"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Hugo是一个快速、灵活的静态网站生成器，具有以下优点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;极快的构建速度&lt;/li&gt;
+&lt;li&gt;强大的模板引擎&lt;/li&gt;
+&lt;li&gt;丰富的主题生态&lt;/li&gt;
+&lt;li&gt;易于部署&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="搭建过程"&gt;
+ 搭建过程
+ &lt;a class="heading-link" href="#%e6%90%ad%e5%bb%ba%e8%bf%87%e7%a8%8b"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;在这篇文章中，我将详细介绍如何：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;安装Hugo&lt;/li&gt;
+&lt;li&gt;选择合适的主题&lt;/li&gt;
+&lt;li&gt;创建内容&lt;/li&gt;
+&lt;li&gt;部署到GitHub Pages&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="结语"&gt;
+ 结语
+ &lt;a class="heading-link" href="#%e7%bb%93%e8%af%ad"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;希望这篇文章对你有所帮助，也欢迎在下方留言交流！&lt;/p&gt;</description></item><item><title>关于我</title><link>https://yaoheng-hub.github.io/BlogbyAnson.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yaoheng-hub.github.io/BlogbyAnson.github.io/about/</guid><description>&lt;div class="card"&gt;
+&lt;h1&gt;关于我&lt;/h1&gt;
+&lt;p&gt;你好，我是Anson，一名充满热情的软件开发者和技术爱好者。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+## 🎓 教育背景
+&lt;p&gt;我在计算机科学领域拥有扎实的基础，专注于现代Web技术栈的学习和实践。我持续关注行业趋势，不断学习新兴技术。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+## 💼 专业技能
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;前端技术&lt;/strong&gt;: HTML5, CSS3, JavaScript, React, Vue.js&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;后端技术&lt;/strong&gt;: Node.js, Python, Java, RESTful API设计&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数据库&lt;/strong&gt;: MySQL, PostgreSQL, MongoDB&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;工具与平台&lt;/strong&gt;: Git, Docker, AWS, Azure&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;其他&lt;/strong&gt;: 敏捷开发, 测试驱动开发, 系统架构设计&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+## 🌟 工作理念
+&lt;p&gt;我相信技术应该服务于人，优秀的软件不仅要有强大的功能，更要易于使用。我致力于编写高质量、可维护的代码，并注重用户体验。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+## 📫 联系方式
+&lt;p&gt;如果你想与我交流技术话题或合作机会，可以通过以下方式联系我：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;邮箱&lt;/strong&gt;: &lt;a href="mailto:your-email@example.com" &gt;your-email@example.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a href="https://github.com/YaoHeng-Hub" class="external-link" target="_blank" rel="noopener"&gt;https://github.com/YaoHeng-Hub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt;: &lt;a href="https://www.linkedin.com/in/yourprofile" class="external-link" target="_blank" rel="noopener"&gt;https://www.linkedin.com/in/yourprofile&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description></item><item><title>联系我</title><link>https://yaoheng-hub.github.io/BlogbyAnson.github.io/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yaoheng-hub.github.io/BlogbyAnson.github.io/contact/</guid><description>&lt;div class="card"&gt;
+&lt;h1&gt;联系我&lt;/h1&gt;
+&lt;p&gt;如果你有任何问题、建议或合作机会，欢迎随时与我联系！&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+## 📧 通过邮件联系
+&lt;p&gt;最直接的方式是发送邮件至：&lt;a href="mailto:your-email@example.com" &gt;your-email@example.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我会尽快回复你的邮件。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+## 🌐 社交媒体
+&lt;p&gt;你也可以通过以下社交媒体平台关注我或与我交流：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a href="https://github.com/YaoHeng-Hub" class="external-link" target="_blank" rel="noopener"&gt;https://github.com/YaoHeng-Hub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt;: &lt;a href="https://www.linkedin.com/in/yourprofile" class="external-link" target="_blank" rel="noopener"&gt;https://www.linkedin.com/in/yourprofile&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Twitter&lt;/strong&gt;: &lt;a href="https://twitter.com/yourusername" class="external-link" target="_blank" rel="noopener"&gt;https://twitter.com/yourusername&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+## 💬 留言板
+&lt;p&gt;你也可以在下方的评论区留下你的想法或问题，我会及时回复。&lt;/p&gt;
+&lt;/div&gt;</description></item></channel></rss>
