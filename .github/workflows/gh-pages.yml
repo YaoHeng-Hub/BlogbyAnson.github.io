@@ -26,7 +26,7 @@ jobs:
 
       - name: Build
         run: |
-          hugo --minify --baseURL https://yaoheng-hub.github.io/BlogbyAnson.github.io/
+          hugo --minify --baseURL ""
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
