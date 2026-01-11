@@ -1,5 +1,5 @@
 # 站点基本信息
-baseURL = 'https://yaoheng-hub.github.io/'
+baseURL = 'https://yaoheng-hub.github.io/BlogbyAnson.github.io/'
 title = '个人博客'
 languageCode = 'zh-cn'
 theme = 'ananke'
