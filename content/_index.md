@@ -55,7 +55,13 @@ description = "欢迎来到我的技术与生活分享空间"
 <div class="card">
 ## 🚀 最新文章
 
-{{< list >}}
+<ul>
+  {{ range first 5 (where .Site.RegularPages "Type" "post") }}
+    <li>
+      <a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Date.Format "2006年01月02日" }}
+    </li>
+  {{ end }}
+</ul>
 
 了解更多关于我的故事，请访问[关于页面](/about/)。
 </div>

@@ -96,9 +96,5 @@ disableHugoGeneratorInject = true
   taxonomy = ['HTML']
   term = ['HTML']
 
-# 附加样式表
-[params.custom_css]
-  custom = ["/css/custom.css"]
-
 # GitHub Pages特定配置
 canonifyURLs = false
