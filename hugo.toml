@@ -28,11 +28,26 @@ disableHugoGeneratorInject = true
   author_bio = '热爱技术的开发者，专注于Web开发和系统架构'
   
   # 社交链接
-  [params.social]
-    github = 'YaoHeng-Hub'
-    twitter = 'yourusername'
-    linkedin = 'yourprofile'
-    email = 'yaohsir@gmail.com'
+  [[params.social]]
+    name = 'Github'
+    icon = 'fa fa-github fa-2x'
+    weight = 1
+    url = 'https://github.com/YaoHeng-Hub'
+  [[params.social]]
+    name = 'Twitter'
+    icon = 'fa fa-twitter fa-2x'
+    weight = 2
+    url = 'https://twitter.com/yourusername'
+  [[params.social]]
+    name = 'LinkedIn'
+    icon = 'fa fa-linkedin fa-2x'
+    weight = 3
+    url = 'https://www.linkedin.com/in/yourprofile'
+  [[params.social]]
+    name = 'Email'
+    icon = 'fa fa-envelope fa-2x'
+    weight = 4
+    url = 'mailto:yaohsir@gmail.com'
 
 # 菜单配置
 [[menu.main]]
@@ -70,9 +85,6 @@ disableHugoGeneratorInject = true
   inputPosition = "bottom"
   theme = "light"
   lang = "zh-CN"
-  
-  # 作者信息
-
 # 输出格式
 [outputs]
   home = ['HTML', 'RSS']
@@ -80,13 +92,6 @@ disableHugoGeneratorInject = true
   section = ['HTML', 'RSS']
   taxonomy = ['HTML']
   term = ['HTML']
-
-# GitHub Pages特定配置
-# Use relative URLs for GitHub Pages
-relativeURLs = true
-
-# Additional settings for GitHub Pages
-googleAnalytics = ""
 
 [markup]
   [markup.goldmark]
@@ -108,3 +113,6 @@ googleAnalytics = ""
   mediaType = "text/plain"
   isPlainText = true
   notAlternative = true
+
+# GitHub Pages特定配置
+canonifyURLs = true
