@@ -31,19 +31,19 @@ theme = 'ananke'
 [menu]
   [[menu.main]]
     name = '首页'
-    url = '/'
+    url = '/BlogbyAnson.github.io/'
     weight = 1
   [[menu.main]]
     name = '文章'
-    url = '/posts/'
+    url = '/BlogbyAnson.github.io/posts/'
     weight = 2
   [[menu.main]]
     name = '关于'
-    url = '/about/'
+    url = '/BlogbyAnson.github.io/about/'
     weight = 3
   [[menu.main]]
     name = '联系'
-    url = '/contact/'
+    url = '/BlogbyAnson.github.io/contact/'
     weight = 4
 
 # 服务配置（用于评论等）
