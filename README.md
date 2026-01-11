@@ -27,6 +27,8 @@
 
 项目已配置GitHub Actions自动部署，当推送到main分支时会自动构建并发布到GitHub Pages。
 
+注意：首次部署可能需要手动触发。
+
 ## 配置Giscus评论系统
 
 1. 访问 [giscus.app](https://giscus.app/)
