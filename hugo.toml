@@ -72,3 +72,6 @@ theme = 'ananke'
   section = ['HTML', 'RSS']
   taxonomy = ['HTML']
   term = ['HTML']
+
+# GitHub Pages特定配置
+canonifyURLs = true
