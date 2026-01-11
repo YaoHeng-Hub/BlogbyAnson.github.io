@@ -128,56 +128,38 @@ taxonomies = [
   { singular = "series", plural = "series" }
 ]
 
-# 国际化配置
-[languages.en]
-languageName = ":uk:"
-title = "Anson的个人博客"
-weight = 1
+# 默认语言配置
+defaultContentLanguage = "zh-cn"
 
-[[languages.en.menu.main]]
-name = "Home"
-weight = 1
-url = "/"
-
-[[languages.en.menu.main]]
-name = "Posts"
-weight = 2
-url = "/posts/"
-
-[[languages.en.menu.main]]
-name = "About"
-weight = 3
-url = "/about/"
-
-[[languages.en.menu.main]]
-name = "Contact"
-weight = 4
-url = "/contact/"
-
-[languages.zh-cn]
-languageName = ":cn:"
-title = "Anson的个人博客"
-weight = 2
-
-[[languages.zh-cn.menu.main]]
-name = "首页"
-weight = 1
-url = "/"
-
-[[languages.zh-cn.menu.main]]
-name = "文章"
-weight = 2
-url = "/posts/"
-
-[[languages.zh-cn.menu.main]]
-name = "关于"
-weight = 3
-url = "/about/"
-
-[[languages.zh-cn.menu.main]]
-name = "联系"
-weight = 4
-url = "/contact/"
+[languages]
+  [languages.zh-cn]
+    title = "Anson的个人博客"
+    languageName = "中文"
+    weight = 1
+    
+    [languages.zh-cn.params]
+      author = "Anson Yao"
+      description = "欢迎来到我的个人博客，分享技术与生活的点点滴滴"
+      
+    [[languages.zh-cn.menu.main]]
+    name = "首页"
+    weight = 1
+    url = "/"
+    
+    [[languages.zh-cn.menu.main]]
+    name = "文章"
+    weight = 2
+    url = "/posts/"
+    
+    [[languages.zh-cn.menu.main]]
+    name = "关于"
+    weight = 3
+    url = "/about/"
+    
+    [[languages.zh-cn.menu.main]]
+    name = "联系"
+    weight = 4
+    url = "/contact/"
 
 # GitHub Pages特定配置
 canonifyURLs = true
