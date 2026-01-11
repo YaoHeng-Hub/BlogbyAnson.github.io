@@ -72,8 +72,6 @@ disableHugoGeneratorInject = true
   lang = "zh-CN"
   
   # 作者信息
-  [params]
-  # ... 已有的params配置 ...
 
 # 输出格式
 [outputs]
