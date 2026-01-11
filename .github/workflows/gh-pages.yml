@@ -27,7 +27,7 @@ jobs:
 
       - name: Build
         run: |
-          hugo --minify --baseURL ""
+          hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4

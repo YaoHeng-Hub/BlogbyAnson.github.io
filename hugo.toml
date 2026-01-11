@@ -91,6 +91,7 @@ disableHugoGeneratorInject = true
   inputPosition = "bottom"
   theme = "light"
   lang = "zh-CN"
+
 # 输出格式
 [outputs]
   home = ['HTML', 'RSS']
