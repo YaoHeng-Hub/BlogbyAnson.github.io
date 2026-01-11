@@ -4,6 +4,12 @@ title = '个人博客'
 languageCode = 'zh-cn'
 theme = 'ananke'
 
+# Hugo参数
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.87.0"
+
 # 站点参数
 [params]
   # 主题相关参数
@@ -31,19 +37,19 @@ theme = 'ananke'
 [menu]
   [[menu.main]]
     name = '首页'
-    url = '/BlogbyAnson.github.io/'
+    url = '/'
     weight = 1
   [[menu.main]]
     name = '文章'
-    url = '/BlogbyAnson.github.io/posts/'
+    url = '/posts/'
     weight = 2
   [[menu.main]]
     name = '关于'
-    url = '/BlogbyAnson.github.io/about/'
+    url = '/about/'
     weight = 3
   [[menu.main]]
     name = '联系'
-    url = '/BlogbyAnson.github.io/contact/'
+    url = '/contact/'
     weight = 4
 
 # 服务配置（用于评论等）
@@ -74,4 +80,4 @@ theme = 'ananke'
   term = ['HTML']
 
 # GitHub Pages特定配置
-canonifyURLs = true
+canonifyURLs = false

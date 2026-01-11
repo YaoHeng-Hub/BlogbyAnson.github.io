@@ -25,7 +25,8 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: |
+          hugo --minify --baseURL https://yaoheng-hub.github.io/BlogbyAnson.github.io/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
@@ -34,3 +35,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
+          force_orphan: true
