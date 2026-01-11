@@ -23,6 +23,7 @@ jobs:
         with:
           hugo-version: '0.154.4'
           extended: true
+          cache: true
 
       - name: Build
         run: |
