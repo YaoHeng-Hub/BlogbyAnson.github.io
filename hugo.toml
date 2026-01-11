@@ -97,4 +97,16 @@ disableHugoGeneratorInject = true
   term = ['HTML']
 
 # GitHub Pages特定配置
+# Use relative URLs for GitHub Pages
 relativeURLs = true
+
+# Additional settings for GitHub Pages
+googleAnalytics = ""
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "github"
+    lineNos = true
