@@ -1,0 +1,60 @@
+# 站点基本信息
+baseURL = 'https://yourusername.github.io/'
+title = '个人博客'
+languageCode = 'zh-cn'
+theme = 'ananke'
+
+# 站点参数
+[params]
+  # 主题相关参数
+  description = '欢迎来到我的个人博客，分享技术与生活'
+  background_color_class = 'bg-washed-blue'
+  text_color = 'black'
+  date_format = '2006年1月2日'
+  
+  # 社交链接
+  [[params.ananke_socials]]
+    name = 'github'
+    url = 'https://github.com/yourusername'
+    label = 'GitHub'
+  [[params.ananke_socials]]
+    name = 'twitter'
+    url = 'https://twitter.com/yourusername'
+    label = 'Twitter'
+  [[params.ananke_socials]]
+    name = 'rss'
+    url = '/index.xml'
+    label = 'RSS'
+    follow = false
+
+# 菜单配置
+[menu]
+  [[menu.main]]
+    name = '首页'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = '文章'
+    url = '/posts/'
+    weight = 2
+  [[menu.main]]
+    name = '关于'
+    url = '/about/'
+    weight = 3
+  [[menu.main]]
+    name = '联系'
+    url = '/contact/'
+    weight = 4
+
+# 服务配置（用于评论等）
+[services]
+  [services.disqus]
+    shortname = ''  # 如果使用Disqus评论系统
+
+# 输出格式
+[outputs]
+  home = ['HTML', 'RSS']
+  page = ['HTML']
+  section = ['HTML', 'RSS']
+  taxonomy = ['HTML']
+  term = ['HTML']
