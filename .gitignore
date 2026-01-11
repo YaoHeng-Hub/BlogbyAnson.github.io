@@ -8,6 +8,7 @@ resources/_gen/
 *.dll
 *.so
 *.dylib
+hugo.exe
 
 # Temporary folders
 .DS_Store
