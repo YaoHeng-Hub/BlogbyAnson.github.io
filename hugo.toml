@@ -15,55 +15,61 @@ disableHugoGeneratorInject = true
 # 站点参数
 [params]
   # 主题相关参数
-  description = '欢迎来到我的个人博客，分享技术与生活的点点滴滴'
-  background_color_class = 'bg-near-white'
-  text_color = 'dark-gray'
-  date_format = '2006年1月2日'
-  favicon = ''
-  twitter_hashtags = "技术,编程,生活"
-  
-  # 作者信息
   author = 'Anson Yao'
-  author_image = '/images/avatar.jpg'  # 如有头像图片可使用
-  author_bio = '热爱技术的开发者，专注于Web开发和系统架构'
+  description = '欢迎来到我的个人博客，分享技术与生活的点点滴滴'
+  keywords = "博客,技术分享,编程,生活"
+  info = ["Web Developer", "Tech Enthusiast"]
+  avatarURL = "/images/avatar.jpg"
+  dateFormat = "2006年1月2日"
+  since = 2026
+  
+  # 主题定制
+  colorScheme = "auto"  # 可选: auto, light, dark
+  hideColorSchemeToggle = false
+  maxSeeAlsoItems = 5
+  
+  # 自定义样式
+  customCSS = []
+  customSCSS = []
+  customJS = []
   
   # 社交链接
   [[params.social]]
-    name = 'Github'
-    icon = 'fa fa-github fa-2x'
+    name = "Github"
+    icon = "fa-brands fa-github fa-2x"
     weight = 1
-    url = 'https://github.com/YaoHeng-Hub'
+    url = "https://github.com/YaoHeng-Hub"
   [[params.social]]
-    name = 'Twitter'
-    icon = 'fa fa-twitter fa-2x'
+    name = "Twitter"
+    icon = "fa-brands fa-x-twitter fa-2x"
     weight = 2
-    url = 'https://twitter.com/yourusername'
+    url = "https://twitter.com/yourusername"
   [[params.social]]
-    name = 'LinkedIn'
-    icon = 'fa fa-linkedin fa-2x'
+    name = "LinkedIn"
+    icon = "fa-brands fa-linkedin fa-2x"
     weight = 3
-    url = 'https://www.linkedin.com/in/yourprofile'
+    url = "https://www.linkedin.com/in/yourprofile"
   [[params.social]]
-    name = 'Email'
-    icon = 'fa fa-envelope fa-2x'
+    name = "Email"
+    icon = "fa-solid fa-envelope fa-2x"
     weight = 4
-    url = 'mailto:yaohsir@gmail.com'
+    url = "mailto:yaohsir@gmail.com"
 
 # 菜单配置
 [[menu.main]]
-  name = '首页'
+  name = 'Home'
   url = '/'
   weight = 1
 [[menu.main]]
-  name = '文章'
+  name = 'Posts'
   url = '/posts/'
   weight = 2
 [[menu.main]]
-  name = '关于'
+  name = 'About'
   url = '/about/'
   weight = 3
 [[menu.main]]
-  name = '联系'
+  name = 'Contact'
   url = '/contact/'
   weight = 4
 
@@ -113,6 +119,64 @@ disableHugoGeneratorInject = true
   mediaType = "text/plain"
   isPlainText = true
   notAlternative = true
+
+# 分类配置
+taxonomies = [
+  { singular = "category", plural = "categories" },
+  { singular = "tag", plural = "tags" },
+  { singular = "series", plural = "series" }
+]
+
+# 国际化配置
+[languages.en]
+languageName = ":uk:"
+title = "Anson的个人博客"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "Home"
+weight = 1
+url = "/"
+
+[[languages.en.menu.main]]
+name = "Posts"
+weight = 2
+url = "/posts/"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 3
+url = "/about/"
+
+[[languages.en.menu.main]]
+name = "Contact"
+weight = 4
+url = "/contact/"
+
+[languages.zh-cn]
+languageName = ":cn:"
+title = "Anson的个人博客"
+weight = 2
+
+[[languages.zh-cn.menu.main]]
+name = "首页"
+weight = 1
+url = "/"
+
+[[languages.zh-cn.menu.main]]
+name = "文章"
+weight = 2
+url = "/posts/"
+
+[[languages.zh-cn.menu.main]]
+name = "关于"
+weight = 3
+url = "/about/"
+
+[[languages.zh-cn.menu.main]]
+name = "联系"
+weight = 4
+url = "/contact/"
 
 # GitHub Pages特定配置
 canonifyURLs = true
