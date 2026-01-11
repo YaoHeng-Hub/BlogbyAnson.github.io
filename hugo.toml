@@ -97,4 +97,4 @@ disableHugoGeneratorInject = true
   term = ['HTML']
 
 # GitHub Pages特定配置
-canonifyURLs = true
+relativeURLs = true
