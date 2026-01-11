@@ -51,6 +51,20 @@ theme = 'ananke'
   [services.disqus]
     shortname = ''  # 如果使用Disqus评论系统
 
+# Giscus评论系统配置
+[params.giscus]
+  enabled = true
+  repo = "yourusername/comments"  # 替换为您的GitHub仓库
+  repoId = ""  # 从giscus.app获取
+  category = "Announcements"  # 讨论分类
+  categoryId = ""  # 从giscus.app获取
+  mapping = "pathname"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "bottom"
+  theme = "light"
+  lang = "zh-CN"
+
 # 输出格式
 [outputs]
   home = ['HTML', 'RSS']
