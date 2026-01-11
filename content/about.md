@@ -1,25 +1,42 @@
 +++
 title = "关于我"
-description = "了解博主的更多信息"
+description = "了解博主的背景和经历"
 +++
 
-# 关于我
+<div class="card">
+<h1>关于我</h1>
 
-你好，欢迎来到我的博客！我是[你的名字]，一名专注于[你的专业领域]的技术爱好者。
+<p>你好，我是Anson，一名充满热情的软件开发者和技术爱好者。</p>
+</div>
 
-## 我的技能
+<div class="card">
+## 🎓 教育背景
 
-- 技术栈1
-- 技术栈2
-- 技术栈3
+我在计算机科学领域拥有扎实的基础，专注于现代Web技术栈的学习和实践。我持续关注行业趋势，不断学习新兴技术。
+</div>
 
-## 经验与背景
+<div class="card">
+## 💼 专业技能
 
-我在[相关领域]有[X]年的经验，喜欢探索新技术并分享学习心得。
+- **前端技术**: HTML5, CSS3, JavaScript, React, Vue.js
+- **后端技术**: Node.js, Python, Java, RESTful API设计
+- **数据库**: MySQL, PostgreSQL, MongoDB
+- **工具与平台**: Git, Docker, AWS, Azure
+- **其他**: 敏捷开发, 测试驱动开发, 系统架构设计
+</div>
 
-## 联系方式
+<div class="card">
+## 🌟 工作理念
 
-- 邮箱: [your-email@example.com](mailto:your-email@example.com)
-- GitHub: [https://github.com/yourusername](https://github.com/yourusername)
+我相信技术应该服务于人，优秀的软件不仅要有强大的功能，更要易于使用。我致力于编写高质量、可维护的代码，并注重用户体验。
+</div>
 
-期待与大家交流学习！
+<div class="card">
+## 📫 联系方式
+
+如果你想与我交流技术话题或合作机会，可以通过以下方式联系我：
+
+- **邮箱**: [your-email@example.com](mailto:your-email@example.com)
+- **GitHub**: [https://github.com/YaoHeng-Hub](https://github.com/YaoHeng-Hub)
+- **LinkedIn**: [https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/yourprofile)
+</div>
